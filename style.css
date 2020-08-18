@@ -1,0 +1,56 @@
+body {
+    background-color: black;
+}
+
+#timerContainer {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    width: 500px;
+    margin: 20px auto;
+    min-height: 60px;
+    border-top: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.timer {
+    color: white;
+    font-size: 100px;
+    margin: auto;
+}
+
+.flex-button {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.reset {
+    float: left;
+    width: 54%;
+    padding: 20px 0;
+    font-size: 24px;
+    text-align: center;
+    color: black;
+    background: white;
+    cursor: pointer;
+}
+
+.reset {
+    background: white;
+    color: black;
+    width: 14.9%;
+}
+
+.reset:hover {
+    background: black;
+    color: white;
+}
+
+.lighter {
+    color: #CC0000;
+    background-color: black;
+}
